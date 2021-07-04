@@ -2,9 +2,10 @@ import React from 'react';
 import './navBarStyles.css';
 
 //Images
-import LogoMELI from './logo.png';
-import LogoDisney from './640px-Disney+_logo.svg.png';
-import LogoSearch from './pngwing.com.png';
+import LogoMELI from './Logos/logo.png';
+import LogoDisney from './Logos/640px-Disney+_logo.svg.png';
+import LogoSearch from './Logos/pngwing.com.png';
+import MapMarkerIcon from './Logos/map-marker-icon.png';
 
 function NavBar(){
     return(
@@ -21,8 +22,23 @@ function NavBar(){
                         <p className="promo_text">Hasta 4 meses de regalo en Disney+</p>
                     </div>
                 </div>
-                <div>
-
+                <div className="second_nav_row">
+                    <div className="address_container">
+                        <img className="map_marker_icon" src={MapMarkerIcon} alt="Map Marker Icon" />
+                        <div className="address-data">
+                            <p className="address_text" id="first_address">Enviar a Fake Name</p>
+                            <p className="address_text" id="second_address">Raúl Scalabrini Or...</p>
+                        </div>
+                    </div>
+                    <div className="options_row">
+                        <p className="option_category">Categorías</p>
+                        <p className="option_category">Ofertas</p>
+                        <p className="option_category">Historial</p>
+                        <p className="option_category">Supermercado</p>
+                        <p className="option_category">Moda</p>
+                        <p className="option_category">Vender</p>
+                        <p className="option_category">Ayuda</p>
+                    </div>
                 </div>
             </nav>
         </>
