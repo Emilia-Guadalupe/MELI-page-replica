@@ -1,0 +1,61 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("../assets/fonts/proximanova-light.woff2");
+}
+
+.nav-container {
+    width: 100vw;
+    background-color: #ffef5b;
+}
+
+.logoMELI {
+    margin: 1rem 3rem 1rem 5rem
+}
+
+.first_nav_row {
+    display: flex;
+    align-items: center;
+}
+
+.search_container {
+    display: flex;
+    align-items: center;
+}
+
+.searchBar {
+    width: 40vw;
+    height: 1rem;
+    font-family: myFirstFont;
+    font-size: 15px;
+    padding: 10px;
+    border: gainsboro 1px solid;
+}
+
+.search_icon {
+    height: 1rem;
+    margin: 0px;
+    padding: 8.5px;
+}
+
+.searchButton {
+    border: none;
+    background-color: white;
+}
+
+.promo_container {
+    display: flex;
+    align-items: center;
+    margin: auto 4rem auto 4rem;
+}
+
+.logoDisney {
+    height: 2rem;
+    padding: 0%;
+    margin: 0%;
+}
+
+.promo_text {
+    width: 20rem;
+    padding: 0rem 0rem 0rem 1rem;
+    font-family: myFirstFont;
+}
