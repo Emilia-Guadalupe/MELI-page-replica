@@ -3,13 +3,15 @@
     src: url("../assets/fonts/proximanova-light.woff2");
 }
 
+/* First Row*/
+
 .nav-container {
     width: 100vw;
     background-color: #ffef5b;
 }
 
 .logoMELI {
-    margin: 1rem 3rem 1rem 5rem
+    margin: 1rem 4rem 1rem 5rem
 }
 
 .first_nav_row {
@@ -58,4 +60,59 @@
     width: 20rem;
     padding: 0rem 0rem 0rem 1rem;
     font-family: myFirstFont;
+}
+
+/*Second Row */
+
+.second_nav_row {
+    display: flex;
+    align-items: center;
+}
+
+.address_container {
+    display: flex;
+    align-items: center;
+    margin: 0rem 2.5rem 1rem 4.5rem;
+    padding: 3px;
+}
+
+.address_container:hover {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+.map_marker_icon {
+    height: 1.7rem;
+    padding: 0.3rem;
+}
+
+.address_text {
+    padding: 0px;
+    margin: 0px;
+}
+
+#first_address {
+    font-family: myFirstFont;
+    font-size: 12px;
+    color: gray;
+}
+
+#second_address {
+    font-family: myFirstFont;
+    font-size: 15px;
+}
+
+.options_row {
+    display: flex;
+    font-family: myFirstFont;
+}
+
+.option_category {
+    font-size: 14px;
+    color: gray;
+    padding: 0px 1rem 0px 0px;
+}
+
+.option_category:hover {
+    color: black;
 }
