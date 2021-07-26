@@ -105,6 +105,8 @@
 .options_row {
     display: flex;
     font-family: myFirstFont;
+    padding: 0px 10px 0px 10px;
+    cursor: pointer;
 }
 
 .option_category {
@@ -115,4 +117,19 @@
 
 .option_category:hover {
     color: black;
+}
+
+.profile-options {
+    display: flex;
+    align-items: center;
+    font-family: myFirstFont;
+}
+
+.profile_section {
+    display: flex;
+    align-items: center;
+}
+
+.icon_element {
+    height: 1.5rem;
 }
