@@ -6,6 +6,9 @@ import LogoMELI from './Logos/logo.png';
 import LogoDisney from './Logos/640px-Disney+_logo.svg.png';
 import LogoSearch from './Logos/pngwing.com.png';
 import MapMarkerIcon from './Logos/map-marker-icon.png';
+import UserIcon from './Logos/user_icon.png';
+import BellIcon from './Logos/bell_icon.png';
+import CartIcon from './Logos/cart_icon.png';
 
 function NavBar(){
     return(
@@ -38,6 +41,16 @@ function NavBar(){
                         <p className="option_category">Moda</p>
                         <p className="option_category">Vender</p>
                         <p className="option_category">Ayuda</p>
+                    </div>
+                    <div className="profile-options">
+                        <div className="profile_section">
+                            <img className="icon_element" src={UserIcon} alt="user icon"/>
+                            <p>Fake Name</p>
+                        </div>
+                        <p className="profile_text">Mis Compras</p>
+                        <p className="profile_text">Favoritos</p>
+                        <img className="icon_element"  src={BellIcon} alt="bell icon" />
+                        <img className="icon_element" src={CartIcon} alt="cart icon" />
                     </div>
                 </div>
             </nav>
