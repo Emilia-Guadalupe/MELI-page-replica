@@ -45,7 +45,7 @@ function NavBar(){
                     <div className="profile-options">
                         <div className="profile_section">
                             <img className="icon_element" src={UserIcon} alt="user icon"/>
-                            <p>Fake Name</p>
+                            <p className="profile_name">Fake Name</p>
                         </div>
                         <p className="profile_text">Mis Compras</p>
                         <p className="profile_text">Favoritos</p>
